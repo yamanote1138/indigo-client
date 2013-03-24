@@ -10,11 +10,9 @@
 	},
 	"main": "./lib/indigo.js",
 	"scripts": {
-		"test": "mocha ./tests/test.js -t 10000"
+		"start": "node ./index.js"
 	},
 	"dependencies": {
-		"chai": "*",
-		"mocha": "*",
 		"prompt": "*",
 		"request": "*",
 		"utile": "*"
