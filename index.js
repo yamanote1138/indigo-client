@@ -3,14 +3,25 @@ var indigo = require('./lib/indigo.js'),
 
 prompt.start();
 
-prompt.get(['host', 'user', 'pass'], function (err, result) {
-	var indigoClient = new indigo({
-		host: result.host,
-		user: result.user,
-		pass: result.pass
-	});
+var prompt_options = [
+	'host',
+	'user',
+	'pass',
+	'device_id',
+	{
+		'name':'key',
+		'default':'isOn'
+	},
+	{
+		'name':'value',
+		'default':1
+	}
+];
 
-	indigoClient.setDeviceValue( 'Living Room Switch', 'isOn', 0, function(err, res, body){
+prompt.get(prompt_options, function (err, result) {
+	var indigoClient = new indigo({host:result.host, user:result.user, pass:result.pass});
+
+	indigoClient.setDeviceValue( result.device_id, result.key, result.value, function(err, res, body){
 		if(err) console.log(err);
 		if(body) console.log(body);
 	});
