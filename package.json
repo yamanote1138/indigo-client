@@ -2,7 +2,7 @@
 	"author": "Chad Francis <discgolfer1138@gmail.com> (www.chadfrancis.com)",
 	"name": "node_indigo",
   	"description": "node wrapper for indigo webserver 'api'",
-  	"version": "0.0.2",
+  	"version": "0.0.4",
 	"private": false,
 	"repository": {
 		"type": "git",

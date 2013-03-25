@@ -1,1 +1,1 @@
-require('./lib/indigo');
+module.exports = require('./lib/indigo');
