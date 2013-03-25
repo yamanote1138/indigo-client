@@ -1,4 +1,4 @@
-var indigo = require('./lib/indigo.js'),
+var indigo = require('../lib/indigo.js'),
 	prompt = require('prompt');
 
 prompt.start();
