@@ -2,15 +2,15 @@
 	"author": "Chad Francis <discgolfer1138@gmail.com> (www.chadfrancis.com)",
 	"name": "node_indigo",
   	"description": "node wrapper for indigo webserver 'api'",
-  	"version": "0.0.1",
+  	"version": "0.0.2",
 	"private": false,
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/discgolfer1138/node_indigo.git"
 	},
-	"main": "./lib/indigo.js",
+	"main": "./index.js",
 	"scripts": {
-		"start": "node ./index.js"
+		"test": "node ./tests/test.js"
 	},
 	"dependencies": {
 		"prompt": "*",
