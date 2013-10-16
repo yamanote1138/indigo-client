@@ -1,9 +1,5 @@
 {
-  "author": {
-    "name": "Chad Francis",
-    "email": "discgolfer1138@gmail.com",
-    "url": "http://www.thechad.io"
-  },
+  "author": "Chad Francis <discgolfer1138@gmail.com> (http://www.thechad.io)",
   "name": "indigo-client",
   "description": "simple node client for Indigo home automation server",
   "version": "0.0.6",
@@ -31,5 +27,11 @@
   ],
   "devDependencies": {
     "prompt": "~0.2.11"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "49c7323d761bd773a310e35e62424745dfde6a13",
+  "directories": {
+    "test": "tests"
+  },
+  "license": "MIT"
 }
