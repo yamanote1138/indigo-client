@@ -1,4 +1,4 @@
-var indigo = require('../lib/indigo.js'),
+var IndigoClient = require('../lib/indigoClient.js'),
 	prompt = require('prompt');
 
 prompt.start();
@@ -19,7 +19,7 @@ var prompt_options = [
 ];
 
 prompt.get(prompt_options, function (err, result) {
-	var indigoClient = new indigo({host:result.host, user:result.user, pass:result.pass});
+	var indigoClient = new IndigoClient({host:result.host, user:result.user, pass:result.pass});
 
 	indigoClient.setDeviceValue( result.device_id, result.key, result.value, function(err, res, body){
 		if(err) console.log(err);

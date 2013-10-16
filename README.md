@@ -1,4 +1,5 @@
-node_indigo
+indigo-client
 ===========
 
-node wrapper to facilitate communication with Indigo home automation server
+simple node client for Indigo home automation server
+

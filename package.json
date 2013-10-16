@@ -1,28 +1,35 @@
 {
-	"author": {
-		"name": "Chad Francis",
-		"email": "discgolfer1138@gmail.com",
-		"url": "http://www.chadfrancis.com"
-	},
-	"name": "node-indigo",
-  	"description": "node wrapper for indigo webserver 'api'",
-  	"version": "0.0.6",
-	"private": false,
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:discgolfer1138/node-indigo.git"
-	},
-	"main": "index.js",
-	"scripts": {
-		"test": "node ./tests/test.js"
-	},
-	"dependencies": {
-		"prompt": "*",
-		"request": "*",
-		"utile": "*"
-	},
-	"engines": {
-		"node": "*"
-	},
-	"keywords": ["indigo","api","home automation","mac","server","rest"]
+  "author": {
+    "name": "Chad Francis",
+    "email": "discgolfer1138@gmail.com",
+    "url": "http://www.thechad.io"
+  },
+  "name": "indigo-client",
+  "description": "simple node client for Indigo home automation server",
+  "version": "0.0.6",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:discgolfer1138/indigo-client.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "dependencies": {
+    "lodash": "~2.2.1",
+    "request": "~2.27.0"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "indigo",
+    "api",
+    "home automation",
+    "mac"
+  ],
+  "devDependencies": {
+    "prompt": "~0.2.11"
+  }
 }
