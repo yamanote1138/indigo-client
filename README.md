@@ -3,6 +3,8 @@ indigo-client
 
 simple node client for Indigo home automation server
 
+[![NPM](https://nodei.co/npm/indigo-client.png)](https://nodei.co/npm/indigo-client/)
+
 ## Usage
 
 setup, configure and connect
