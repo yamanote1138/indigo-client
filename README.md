@@ -9,10 +9,11 @@ simple node client for Indigo home automation server
 
 setup, configure and connect
 ```javascript
-var IndigoClient = require('indigo-client');
+const IndigoClient = require('indigo-client');
 
-var client = new IndigoClient({
-	host: 'indigo.myhomedomain.com', // include port if applicable
+let client = new IndigoClient({
+	host: 'indigo.myhomedomain.com',
+  port: 1138, // optional, defaults to 80
 	user: 'admin',
 	pass: 's3cr3t'
 });
@@ -20,7 +21,7 @@ var client = new IndigoClient({
 
 set device property to value
 ```javascript
-client.setDeviceValue( 'Living Room Switch', 'isOn', 1, function(err, res, body){
+client.setDeviceValue( 'living-room-switch', 'isOn', 1, function(err, res, body){
 	console.log('Living Room Switch isOn set to 1');
 	// handle error and/or do stuff
 });
