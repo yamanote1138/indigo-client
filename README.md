@@ -1,4 +1,4 @@
-indigo-client
+indigo-client [![Build Status](https://travis-ci.org/yamanote1138/indigo-client.png?branch=master)](https://travis-ci.org/yamanote1138/indigo-client)
 =============
 
 simple node client for Indigo home automation server
