@@ -19,8 +19,7 @@
     "test": "./node_modules/.bin/mocha -R spec ./tests/unit.test.js"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "request": "^2.88.0"
+    "lodash": "^4.17.15"
   },
   "engines": {
     "node": ">=8.9.1"
@@ -32,12 +31,13 @@
     "mac"
   ],
   "devDependencies": {
-    "eslint": "^6.3.0",
+    "eslint": "^7.0.0",
     "eslint-config-strongloop": "^2.1.0",
-    "eslint-plugin-mocha": "^6.1.0",
-    "eslint-plugin-node": "^9.2.0",
-    "mocha": "^6.2.0",
-    "prompt": "^1.0.0"
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^7.1.2",
+    "prompt": "^1.0.0",
+    "request": "^2.88.2"
   },
   "readmeFilename": "README.md",
   "gitHead": "49c7323d761bd773a310e35e62424745dfde6a13",
