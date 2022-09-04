@@ -1,5 +1,5 @@
 const assert = require('assert');
-const IndigoClient = require('../lib/indigoClient');
+import { IndigoClient } from '../dist/indigoClient.modern';
 
 describe('IndigoClient', function(){
 
@@ -12,7 +12,7 @@ describe('IndigoClient', function(){
         it('should not throw an error', function(){
           assert.doesNotThrow(
             function(){
-              new IndigoClient({host:'192.168.1.123', port:1138, user:'user', pass:'pass'});
+              let client = new IndigoClient('192.168.1.123', 1138, 'user', 'pass')
             },
             Error
           );

@@ -1,1 +1,1 @@
-module.exports = require('./lib/indigoClient');
+module.exports = require("./dist");
