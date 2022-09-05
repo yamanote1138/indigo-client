@@ -1,4 +1,4 @@
-indigo-client ![Build Status](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml/badge.svg)
+indigo-client [![Build & Test](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml)
 =============
 
 simple node client for Indigo home automation server
