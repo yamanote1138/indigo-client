@@ -13,9 +13,9 @@ setup, configure and connect
 import { IndigoClient } from 'indigo-client';
 
 let client = new IndigoClient(
-	'indigo.myhomedomain.com', // hostname
-	'admin', // username
-	's3cr3t', // password
+  'indigo.myhomedomain.com', // hostname
+  'admin', // username
+  's3cr3t', // password
   1138 // port (optional), defaults to 80
 );
 ```
@@ -23,7 +23,7 @@ let client = new IndigoClient(
 set device property to value
 ```javascript
 client.setDeviceValue( 'living-room-switch', 'isOn', 1)
-	.then((response) => {
-		console.log(JSON.stringify(response));
-	});
+  .then((response) => {
+    console.log(JSON.stringify(response));
+  });
 ```
