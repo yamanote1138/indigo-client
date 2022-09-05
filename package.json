@@ -39,5 +39,9 @@
   },
   "dependencies": {
     "node-fetch": "^3.2.10"
-  }
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ]
 }
