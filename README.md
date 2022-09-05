@@ -1,9 +1,10 @@
-indigo-client [![Build & Test](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml)
+indigo-client 
+[![Build](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml)
+![License](https://img.shields.io/npm/l/indigo-client)
+![NPM Version](https://img.shields.io/npm/v/indigo-client)
 =============
 
 simple node client for Indigo home automation server
-
-[![NPM](https://nodei.co/npm/indigo-client.png?compact=true)](https://nodei.co/npm/indigo-client/)
 
 ## Usage
 
