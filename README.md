@@ -1,4 +1,4 @@
-indigo-client [![Build Status](https://travis-ci.org/yamanote1138/indigo-client.png?branch=master)](https://travis-ci.org/yamanote1138/indigo-client)
+indigo-client ![Build Status](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml/badge.svg)
 =============
 
 simple node client for Indigo home automation server
@@ -9,20 +9,21 @@ simple node client for Indigo home automation server
 
 setup, configure and connect
 ```javascript
-const IndigoClient = require('indigo-client');
+'use strict';
+import { IndigoClient } from 'indigo-client';
 
-let client = new IndigoClient({
-	host: 'indigo.myhomedomain.com',
-  port: 1138, // optional, defaults to 80
-	user: 'admin',
-	pass: 's3cr3t'
-});
+let client = new IndigoClient(
+	'indigo.myhomedomain.com', // hostname
+	'admin', // username
+	's3cr3t', // password
+  1138 // port (optional), defaults to 80
+);
 ```
 
 set device property to value
 ```javascript
-client.setDeviceValue( 'living-room-switch', 'isOn', 1, function(err, res, body){
-	console.log('Living Room Switch isOn set to 1');
-	// handle error and/or do stuff
-});
+client.setDeviceValue( 'living-room-switch', 'isOn', 1)
+	.then((response) => {
+		console.log(JSON.stringify(response));
+	});
 ```
