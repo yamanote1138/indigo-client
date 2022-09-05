@@ -7,7 +7,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
-    "test": "jest --no-cache"
+    "test": "jest --no-cache --coverage"
   },
   "keywords": [
     "indigo",
