@@ -1,7 +1,8 @@
-indigo-client 
-[![Build](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/yamanote1138/indigo-client/actions/workflows/build-and-test.yml)
-![License](https://img.shields.io/npm/l/indigo-client)
-![NPM Version](https://img.shields.io/npm/v/indigo-client)
+> [!WARNING]
+> **DEPRECATED — No longer maintained.**
+> This package is no longer actively developed or supported. No further updates, bug fixes, or security patches will be issued. It is kept available for reference and for anyone who may find the source code useful. Use at your own risk.
+
+indigo-client
 =============
 
 simple node client for Indigo home automation server
